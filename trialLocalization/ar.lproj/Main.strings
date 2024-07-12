@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "My Age is 23"; ObjectID = "09F-zN-SAF"; */
+"age.text" = "Haza umri is 23";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "GJd-Id-ysS"; */
+"greetings.text" = "Salam";
+
+/* Class = "UILabel"; text = "My Name is Ali"; ObjectID = "SsC-rt-U84"; */
+"name.text" = "Isme Ali";
