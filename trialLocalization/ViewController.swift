@@ -32,3 +32,31 @@ extension String{
         return NSLocalizedString(self, comment: "")
     }
 }
+
+extension UIButton {
+    @IBInspectable var localizedTitle: String? {
+        get {
+            return nil // doesn't really matter
+        }
+        set {
+            if let newValue = newValue {
+                self.setTitle(NSLocalizedString(newValue, comment: ""), for: .normal)
+            }
+        }
+    }
+}
+
+
+extension UILabel {
+    @IBInspectable var localizedText: String? {
+        get {
+            return nil // doesn't really matter
+        }
+        set {
+            if let newValue = newValue {
+                self.text = NSLocalizedString(newValue, comment: "")
+            }
+        }
+    }
+}
+
